@@ -1,0 +1,246 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--color-navy-blue);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------base styly--------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.h1 {
+  font-size: 56px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.0714;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+}
+.h2 {
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+}
+.h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+}
+.p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-slate);
+}
+.list {
+  list-style-type: none;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!-----------------header styles-----------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.header-nav {
+}
+.header-loga {
+  font-family: Raleway;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.loga {
+  color: var(--color-iris);
+}
+.header-nav-list {
+}
+.header-nav-list .heqder-link {
+  color: var(--color-navy-blue);
+}
+.header-nav-list .heqder-link:hover,
+.header-nav-list .heqder-link:focus,
+.header-nav-list .heqder-link:active {
+  color: var(--color-ocean);
+}
+.header-nav-item {
+}
+.heqder-link {
+  text-decoration: none;
+}
+.header-address {
+}
+.header-address-list {
+  list-style-type: none;
+}
+.header-address-mail {
+}
+.header-mail-link {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--color-slate);
+}
+.header-mail-link:hover,
+.header-mail-link:focus {
+  color: var(--color-ocean);
+}
+.header-address-contact {
+}
+.header-contact-link {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--color-navy-blue);
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--color-ocean);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!----------------------hero-imege------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+
+.section-hero-image {
+  background: var(--color-navy-blue);
+}
+.hero-imege-title {
+  color: var(--color-white);
+}
+.imege-button {
+  cursor: pointer;
+  color: var(--color-white);
+  background: var(--color-iris);
+}
+.imege-button:active {
+  background: var(--color-ocean);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!--------------------section advantage-------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.section-advantage {
+}
+.advantage-list {
+}
+.advantage-item-strategy {
+}
+.advantage-title-strategy {
+}
+.advantage-text-strategy {
+}
+.advantage-item-punctuality {
+}
+.advantage-title-punctuality {
+}
+.advantage-text-punctuality {
+}
+.advantage-item-diligence {
+}
+.advantage-title-diligence {
+}
+.advantage-text-diligence {
+}
+.advantage-item-technologies {
+}
+.advantage-title-technologies {
+}
+.advantage-text-technologies {
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------section product----------------!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.section-product {
+}
+.product-title {
+}
+.product-list {
+}
+.product-item {
+}
+.product-item-img {
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-------------------section team--------------------!!!!!!!!!!!!!!!!!!!!!!!*/
+.section-team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-img {
+}
+.team-item-title {
+  text-align: center;
+}
+.team-item-text {
+  text-align: center;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------------footer------------------!!!!!!!!!!!!!!!!!!!!!!!*/
+.footer {
+  background: var(--color-navy-blue);
+}
+
+.footer-loga {
+  text-decoration: none;
+  font-family: Raleway;
+  color: var(--color-cloud);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!----------------portfolio-------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!-----button-filters-----!!!!!!*/
+.button-filters {
+}
+.button-item {
+}
+.button {
+  cursor: pointer;
+  color: var(--color-iris);
+  background: var(--color-cloud);
+}
+.button:active {
+  color: var(--color-white);
+  background: var(--color-ocean);
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!---------------project-card-----------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.project-list {
+}
+
+.project-item {
+}
+.project-title {
+}
+.progekt-text {
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!------------------CSS root---------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
