@@ -36,6 +36,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  color: var(--color-grey);
 }
 /*p*/
 .small {
@@ -154,34 +155,21 @@ body {
 }
 
 /*!!!!!!!!!!!!!!!!!!!!--------------------section advantage-------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .section-advantage {
 }
+
 .advantage-list {
 }
-.advantage-item-strategy {
+
+.advantage-item {
 }
-.advantage-title-strategy {
+.advantage-title {
 }
-.advantage-text-strategy {
+
+.advantage-text {
 }
-.advantage-item-punctuality {
-}
-.advantage-title-punctuality {
-}
-.advantage-text-punctuality {
-}
-.advantage-item-diligence {
-}
-.advantage-title-diligence {
-}
-.advantage-text-diligence {
-}
-.advantage-item-technologies {
-}
-.advantage-title-technologies {
-}
-.advantage-text-technologies {
-}
+
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------section product----------------!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .section-product {
 }
@@ -218,14 +206,21 @@ body {
 }
 
 .footer-loga {
-  text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
   color: var(--color-iris);
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.footer-loga:link {
+  text-decoration: none;
+}
+
 .loga-footer {
   color: var(--color-cloud);
 }
@@ -245,9 +240,19 @@ body {
 .button-item {
 }
 .button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--color-iris);
   background: var(--color-cloud);
+}
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
 }
 .button:active {
   color: var(--color-white);
@@ -259,6 +264,9 @@ body {
 }
 
 .project-item {
+}
+.project-link:link {
+  text-decoration: none;
 }
 .project-title {
 }
