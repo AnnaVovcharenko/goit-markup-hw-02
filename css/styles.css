@@ -123,7 +123,7 @@ body {
 .header-contact-link:link {
   font-style: normal;
   text-decoration: none;
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
 }
 .header-contact-link:hover,
 .header-contact-link:focus {
