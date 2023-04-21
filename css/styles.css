@@ -9,70 +9,53 @@ body {
 .title {
   font-size: 56px;
   font-weight: 700;
-  font-style: normal;
+
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
   text-align: center;
 }
 /*h2*/
 .subject {
   font-size: 36px;
   font-weight: 700;
-  font-style: normal;
+
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-decoration: none;
   text-transform: capitalize;
   text-align: center;
   color: var(--color-navy-blue);
 }
-/*h2-portfolio*/
-.subject-h {
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--color-grey);
-}
+
 /*h3*/
 .heading {
   font-size: 20px;
   font-weight: 500;
-  font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
+
   color: var(--color-grey);
 }
 /*p*/
 .small {
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
   color: var(--color-slate);
 }
 .text {
   font-size: 16px;
   font-weight: 500;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
   color: var(--color-slate);
 }
+
 .list {
   list-style-type: none;
+}
+.link {
+  text-decoration: none;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!-----------------header styles-----------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -84,15 +67,10 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--color-iris);
-
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-loga:link {
-  text-decoration: none;
-}
+
 .loga {
   color: var(--color-grey);
 }
@@ -108,23 +86,14 @@ body {
 }
 .header-nav-item {
 }
-.heqder-link:link {
-  text-decoration: none;
-}
+
 .header-address {
   font-style: normal;
 }
-.header-address-list:link {
-  list-style-type: none;
-}
+
 .header-address-contact {
 }
 
-.header-contact-link:link {
-  font-style: normal;
-  text-decoration: none;
-  color: var(--color-slate);
-}
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--color-ocean);
@@ -213,24 +182,17 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--color-iris);
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.footer-loga:link {
-  text-decoration: none;
 }
 
 .loga-footer {
   color: var(--color-cloud);
 }
 .footer-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
 }
